@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+:root {
+  --principal: #0339a6;
+  --white: #ffffff;
+}
+body {
+  font-family: "Concert One", cursive;
+}
+.navbar__container {
+  width: 100vw;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 20px;
+  align-items: center;
+  background: var(--principal);
+  box-shadow: 0px 4px 10px 1px rgba(165, 165, 165, 0.65);
+}
+
+.navbar__container h1 {
+  margin-top: 0px;
+  color: var(--white);
+}
+
+.navbar__ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar__ul-link {
+  margin: 10px;
+  color: white;
+  font-size: 1.3em;
+  text-decoration: none;
+}
