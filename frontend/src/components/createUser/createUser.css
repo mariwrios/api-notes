@@ -1,0 +1,39 @@
+.content__user {
+  display: flex;
+  margin: 50px;
+}
+
+.content__user-left {
+  width: 40vw;
+}
+
+.content__user-right {
+  width: 60vw;
+  display: flex;
+}
+
+.user__right-ul {
+  list-style: none;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.user__right-ul li {
+  display: flex;
+  align-items: center;
+  min-height: 70px;
+  margin: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #e1fffc;
+}
+
+.user__li {
+  display: flex;
+  flex-direction: column;
+}
+
+.user__li button {
+  margin: 10px 0;
+}

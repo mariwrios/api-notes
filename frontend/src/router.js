@@ -1,8 +1,7 @@
 import React from "react"
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom"
-import Home from "./components/Home"
 import CreateNote from "./components/CreateNote"
-import CreateUser from "./components/CreateUser"
+import CreateUser from "./components/createUser/CreateUser"
 import NoteList from "./components/NoteList"
 import Navbar from "./components/Navbar/Navbar"
 const router = () => {

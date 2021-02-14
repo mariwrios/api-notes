@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="navbar__container">
       <h1>Note app</h1>
-      <lu className="navbar__ul">
+      <ul className="navbar__ul">
         <li>
           <Link className="navbar__ul-link" to="/">
             Notes
@@ -22,7 +22,7 @@ const Navbar = () => {
             User
           </Link>
         </li>
-      </lu>
+      </ul>
     </div>
   )
 }

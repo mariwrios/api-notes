@@ -19,6 +19,6 @@ app.use(express.json())
 
 app.use("/api/notes", notesRoute)
 
-app.use("/api/user", userRoute)
+app.use("/api/users", userRoute)
 
 export default app
